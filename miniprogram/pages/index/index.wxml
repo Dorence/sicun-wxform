@@ -1,0 +1,13 @@
+<!--pages/index/index.wxml-->
+<home wx:if="{{curr == 0}}"></home>
+<view wx:elif="{{curr == 1}}">1</view>
+<view wx:else>Error</view>
+
+<view class="cu-bar tabbar bg-white shadow foot">
+    <view wx:for="{{pageName}}" wx:for-item="i" wx:for-index="idx" wx:key="*this" class="action" bindtap="navSelect" data-curr="{{idx}}">
+        <view class='cuIcon-cu-image'>
+            <image src="/images/tabbar/{{i}}{{curr == idx ? '_cur' : ''}}.png"></image>
+        </view>
+        <view class="text-{{curr == idx ? 'green' : 'gray'}}">{{pageTitle[idx]}}</view>
+    </view>
+</view>

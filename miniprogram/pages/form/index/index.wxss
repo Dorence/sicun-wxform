@@ -1,0 +1,4 @@
+/* miniprogram/pages/form/index/index.wxss */
+page{
+    margin-top: 100px;
+}

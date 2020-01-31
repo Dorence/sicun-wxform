@@ -1,0 +1,29 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/design/editDesign/editDesign",
+        "pages/design/newForm/newForm",
+        "pages/design/publishDesign/publishDesign",
+        "pages/design/viewDesign/viewDesign",
+        "pages/form/fillForm/fillForm",
+        "pages/form/viewForm/viewForm",
+        "pages/help/index/index",
+        "pages/stat/formStat/formStat",
+        "pages/stat/personStat/personStat",
+        "pages/user/index/index",
+        "pages/user/option/option",
+        "pages/form/index/index"
+    ],
+    "window": {
+        "backgroundColor": "#f6f6f6",
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#f6f6f6",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "Sicun WX Form",
+        "navigationStyle": "custom"
+    },
+    "usingComponents": {
+        "cu-custom": "/colorui/components/cu-custom"
+    },
+    "sitemapLocation": "sitemap.json"
+}
