@@ -4,7 +4,7 @@
 
 ## 1. Pages
 
-页面跳转关系，与功能实现无关。
+页面跳转关系，与功能实现无关。详情[here](docs/pages.md).
 
 ```plain
 path: miniprogram/pages
@@ -22,7 +22,7 @@ form/index 主页
 
 user/index 用户主页
 ├─── help/index 简要的帮助页面
-└─── user/options 设置用户名等
+└─── user/option 设置用户名等
 ```
 
 ## 2. Color UI Quick Reference [here](docs/colorUI.md)
